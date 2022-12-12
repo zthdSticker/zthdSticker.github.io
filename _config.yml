@@ -1,0 +1,30 @@
+# Site settings
+title:  "Meme & Stickers"
+author: "Joary"
+email: joary.xu@gmail.com
+description: "Joary, Plan B."
+baseurl: ""
+url: "http://blog.stickermobi.com"
+github_username:  zthdSticker
+google_analytics_tracking_id: UA-65682024-1
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+permalink: pretty
+
+excerpt_separator: <!--more-->
+
+paginate: 10
+paginate_path: "/page/:num"
+
+kramdown:
+  input: GFM
+
+redcarpet:
+  extensions: ['smart', 'no_intra_emphasis', 'strikethrough', 'tables', 'footnotes', 'highlight', 'underline', 'autolink', 'fenced_code_blocks','hard_wrap','quote']
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
